@@ -10,3 +10,15 @@ xpack.monitoring.elasticsearch.hosts: [ "http://elasticsearch:9200" ]
 xpack.monitoring.enabled: true
 xpack.monitoring.elasticsearch.username: elastic
 xpack.monitoring.elasticsearch.password: changeme
+# xpack.management.enabled: true
+# xpack.management.elasticsearch.hosts: "http://elasticsearch:9200/"
+# xpack.management.elasticsearch.username: elastic
+# xpack.management.elasticsearch.password: changeme
+# xpack.management.logstash.poll_interval: 5s
+# xpack.management.pipeline.id: ["not_main1", "not_main2"]
+config.reload.automatic: true
+queue.type: persisted
+queue.max_bytes: 4gb
+pipeline.batch.size: 20
+pipeline.batch.delay: 50
+

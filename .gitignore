@@ -1,0 +1,4 @@
+# Declare files tthat will be excluded
+/elasticsearch/data
+/kibana/data
+/logstash/data
